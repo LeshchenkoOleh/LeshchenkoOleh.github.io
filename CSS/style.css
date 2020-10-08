@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+*{
+	font-family: 'Montserrat', sans-serif
+}
+
+body{
+
+	background: lightblue;
+}
+
+h1{
+	text-align: left;
+}
+
+.nav_link{
+	text-decoration: none;
+	color: grey;
+
+	transition: color .3s linear
+}
+
+.nav_link:hover{
+	color: #404040;
+}
+
+.cont{
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 60%;
+	font-size: 18px;
+}
+
+.cont1{
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	font-size: 18px;
+	margin: auto;
+}
+
+.science{
+	height: 400px;
+	width: 600px;
+}
+
+#img{
+	height: 70px;
+	width: 70px;
+}
+
+.main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	width: 85%;
+}
+
+.for_name{
+	width: 98%;
+	height: 450px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.kaleydoscop{
+	width: 30%;
+	padding: 100px;
+}
+
+.back1{
+	height: 400px;
+	width: 440px;
+	margin-top: 30px;
+	margin-right: 130px;
+}
