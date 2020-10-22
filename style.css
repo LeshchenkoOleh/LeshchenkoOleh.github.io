@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+*{
+	font-family: 'Montserrat', sans-serif
+}
+
+body{
+
+	background: lightblue;
+}
+
+h1{
+	text-align: left;
+}
+
+.nav_link{
+	text-decoration: none;
+	color: grey;
+
+	transition: color .3s linear
+}
+
+.nav_link:hover{
+	color: #404040;
+}
+
+.con{
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+
+.cont{
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	font-size: 18px;
+}
+
+.cont1{
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	font-size: 18px;
+	margin: auto;
+}
+
+.science{
+	display: block;
+	height: 200px;
+	width: 300px;
+	margin: auto;
+	border: 2px solid;
+	border-radius: 20px;
+}
+
+#img{
+	height: 70px;
+	width: 70px;
+}
+
+.main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	width: 85%;
+	font-size: 10px;
+}
+
+.for_name{
+	width: 98%;
+	height: 540px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.kaleydoscop{
+	width: 30%;
+	padding: 100px;
+}
+
+.back1{
+	height: 400px;
+	width: 440px;
+	margin-top: 30px;
+	margin-right: 130px;
+}
+
+.main_for_science{
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.card{
+	border: 2px solid;
+	border-radius: 20px;
+	overflow: auto;
+	width:  30%;
+	height: 600px;
+	padding: 10px;
+	margin: 5px;
+	margin-top: 60px;
+}
+
+.but{
+
+	background-color: #6767c2;
+	height: 30px;
+	text-align: center;
+	padding-top: 9px;
+	width: 100px; 
+
+}
+.but_div{
+	text-decoration: none;
+	}
