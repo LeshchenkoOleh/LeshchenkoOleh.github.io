@@ -30,9 +30,23 @@ table{
 	height: 41px;
 }
 
+.img_icon{
+
+	height: 30px;
+	width: 30px;
+}
+tr:nth-child(even){
+	background-color: #baabe0; 
+}
+tr:nth-child(odd){
+	background-color: #7081ff; 
+}
+tr:nth-child(1){
+	background-color: lightblue; 
+}
 tr:hover, td:hover {
 	font-weight: bold;
-	background-color: #1d93ec;
+	background-color: #6ac9cc;
 	cursor:pointer;
 }
 
@@ -43,12 +57,6 @@ td:hover{
 #hover_tr:hover {
 	background-color: lightblue ;
 	cursor:default ;	
-}
-
-.img_icon{
-
-	height: 30px;
-	width: 30px;
 }
 </style>
 <body class="body">
@@ -74,6 +82,11 @@ td:hover{
 		<tr class="Rating_tr" onclick="location.href='http://www.tiobe.com/tiobe-index/r/'"><td>9</td><td>15</td><td><img class="img_icon" src="https://www.flaticon.com/svg/static/icons/svg/248/248515.svg"></td><td>R</td><td>1.99%</td><td>+0.73%</td></tr>
 		<tr class="Rating_tr" onclick="location.href='http://www.tiobe.com/tiobe-index/sql/'"><td>10</td><td>8</td><td><img class="img_icon" src="https://www.flaticon.com/svg/static/icons/svg/248/248599.svg"></td><td>SQL</td><td>1.57%</td><td>-0.37%</td></tr>
 	</table>
-	<center><div class="but" style="margin-top: 10px;"><a class="but_div" href="http://www.tiobe.com/tiobe-index/">Джерело</a></div></center>
+	<div class="butt" style="margin-top: 10px;"><a class="but_div" href="http://www.tiobe.com/tiobe-index/">Джерело</a></div>
 </body>
 </html>
+
+
+
+
+
