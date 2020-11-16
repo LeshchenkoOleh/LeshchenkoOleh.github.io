@@ -6,7 +6,7 @@
 	<title>Наука ХХІ століття</title>
 	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
 </head>
-<body link="White" vlink="White" alink="Blue">
+<body link="White" vlink="White" alink="Blue" id="#top">
 	<div class="cont1">
 		<div><a class='nav_link'href="../index.html">Головна</a></div>
 		<div><a class='nav_link'href="Мореплавці.html">Визначні мореплавці</a></div>
@@ -49,6 +49,15 @@
 					<p>Основою пристрою став аналізатор дихання з вбудованим наночіпи NaNose, здатний «винюхати» ракову пухлину з 90-процентною точністю, навіть коли раковий вузлик практично непомітний. Незабаром варто очікувати аналізаторів, які зможуть по «запаху» визначати і інші види раку.</p>
 					<div class="but"><a class="but_div" href="http://www.vokrugsveta.ru/article/239630/">Джерело</a></div>
 		</div>
-	</div>			
+	</div>
+	<button id="ButUp" class="b_top" onclick="location.href='#top'">&#129065;</button>
+	<script type="text/javascript">
+		window.onscroll = function(){scroll()}
+		function scroll(){
+			if (document.body.scrollTop > 300 || document.documentElement.scrollTop >300){
+				document.getElementById('ButUp').style.display = "block"}
+			else{document.getElementById('ButUp').style.display = "none"}
+		}
+	</script>		
 </body>
 </html>

@@ -67,5 +67,14 @@
 			</dl>
 		</dd>
 	</dl>
+	<button id="ButUp" class="b_top" onclick="location.href='#top'">&#129065;</button>
+	<script type="text/javascript">
+		window.onscroll = function(){scroll()}
+		function scroll(){
+			if (document.body.scrollTop > 300 || document.documentElement.scrollTop >300){
+				document.getElementById('ButUp').style.display = "block"}
+			else{document.getElementById('ButUp').style.display = "none"}
+		}
+	</script>
 </body>
 </html>

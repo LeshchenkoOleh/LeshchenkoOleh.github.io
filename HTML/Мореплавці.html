@@ -89,7 +89,7 @@
 	 	}
 	</style>
 </head>
-<body>
+<body  id="top">
 	<div class="cont1">
 		<div><a class='nav_link' href="../index.html">Головна</a></div>
 		<div><a class='nav_link' href="Резюме.html">Резюме</a></div>
@@ -97,7 +97,7 @@
 		<div><a class='nav_link'href="Рейтинг мов програмування.html">Рейтинг мов програмування</a></div>
 	</div>
 	<table>
-		<caption id="top" style="padding: 10px; font-size: 26px;"><strong>Визначні мореплавці<strong></strong></caption>
+		<caption style="padding: 10px; font-size: 26px;"><strong>Визначні мореплавці<strong></strong></caption>
 		<tr><th style="width: 25%">Мореплавець</th><th style="width: 45%">Подорожі, відкриття</th><th style="width: 30%;">Вшанування пам’яті</th></tr>
 		<tr style='background-color: #fbe4d5;'>
 			<td rowspan="4" class="td" ><str class='first'>Христофор Колумб<br>1451-1506<br></str><a href="https://uk.wikipedia.org/wiki/%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE%D1%84%D0%BE%D1%80_%D0%9A%D0%BE%D0%BB%D1%83%D0%BC%D0%B1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Christopher_Columbus.PNG/1200px-Christopher_Columbus.PNG"></a></td>
@@ -191,6 +191,15 @@
 			</td>
 		</tr>
 	</table>
+	<button id="ButUp" class="b_top" onclick="location.href='#top'">&#129065;</button>
+	<script type="text/javascript">
+		window.onscroll = function(){scroll()}
+		function scroll(){
+			if (document.body.scrollTop > 300 || document.documentElement.scrollTop >300){
+				document.getElementById('ButUp').style.display = "block"}
+			else{document.getElementById('ButUp').style.display = "none"}
+		}
+	</script>
 	<footer>
 		<div class="con"><div><a href="#top"><img id="img" src="https://vignette.wikia.nocookie.net/apocalypse/images/a/a0/Unnamed.png/revision/latest/scale-to-width-down/340?cb=20180114131303&path-prefix=ru"></a></div></div>	
 	</footer>

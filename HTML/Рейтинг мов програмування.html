@@ -84,6 +84,15 @@ td:hover{
 		<tr class="Rating_tr" onclick="location.href='http://www.tiobe.com/tiobe-index/sql/'"><td>10</td><td>8</td><td><img class="img_icon" src="https://www.flaticon.com/svg/static/icons/svg/248/248599.svg"></td><td>SQL</td><td>1.57%</td><td>-0.37%</td></tr>
 	</table>
 	<div class="butt" style="margin-top: 10px;"><a class="but_div" href="http://www.tiobe.com/tiobe-index/">Джерело</a></div>
+	<button id="ButUp" class="b_top" onclick="location.href='#top'">&#129065;</button>
+	<script type="text/javascript">
+		window.onscroll = function(){scroll()}
+		function scroll(){
+			if (document.body.scrollTop > 300 || document.documentElement.scrollTop >300){
+				document.getElementById('ButUp').style.display = "block"}
+			else{document.getElementById('ButUp').style.display = "none"}
+		}
+	</script>
 </body>
 </html>
 
