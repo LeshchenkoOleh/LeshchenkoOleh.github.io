@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
 
 *{
-	font-family: 'Montserrat', sans-serif
+	font-family: 'Montserrat', sans-serif;
 }
 
 body{
@@ -148,4 +148,26 @@ h1{
 .but_div:link, .but_div:visited{
 	color: white;
 	font-weight: 500;
+}
+.b_top{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	box-shadow: none;
+	background-color: black;
+	color: white;
+	border: none;
+	font-size: 1.5em;
+	font-weight: bold;
+	top:90%;
+	left: 95%;
+	position: fixed;
+	cursor:pointer;
+	padding-bottom: 2px;
+	opacity: 0.7;
+	transition: opacity .4s linear;
+	display: none;
+}
+.b_top:hover{
+	opacity: 1;
 }
